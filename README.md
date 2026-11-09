@@ -1,9 +1,9 @@
 # Bài 6 : Ứng dụng AI trong khắc phục lỗi Git Permission Denied
 ## 1. Sử dụng công thức Prompt 3 thành phần
 Công thức gồm:
-1. Role (Vai trò): Yêu cầu AI đóng vai chuyên gia hỗ trợ kỹ thuật.
-2. Context (Bối cảnh): Cung cấp lỗi và tình huống đang gặp.
-3. Task (Nhiệm vụ): Yêu cầu AI giải thích và hướng dẫn xử lý.
+1. **Role (Vai trò):** Yêu cầu AI đóng vai chuyên gia hỗ trợ kỹ thuật.
+2. **Context (Bối cảnh):** Cung cấp lỗi và tình huống đang gặp.
+3. **Task (Nhiệm vụ):** Yêu cầu AI giải thích và hướng dẫn xử lý.
 
 Prompt hoàn chỉnh:
 
