@@ -53,3 +53,27 @@ git commit -m "Update project"
 git push
 ```
 ### Bước 3: Chụp ảnh minh họa để nộp bài
+## 3. Soạn tin nhắn nhờ giảng viên hỗ trợ
+Giả sử bạn đã thử các bước trên nhưng vẫn không khắc phục được lỗi. Lúc này, hãy gửi tin nhắn theo Bug Reporting Framework gồm 4 phần: Context, Expected, Actual, Log.
+
+Em chào thầy ạ! Em đang gặp sự cố khi thực hiện thao tác đẩy code lên GitHub, mong thầy hỗ trợ em kiểm tra.
+### 1. CONTEXT (Bối cảnh):
+- Hệ điều hành: Windows 11.
+- Công cụ: Git, PowerShell và GitHub.
+- Thao tác: Thực hiện Git Fetch/Push để đồng bộ và đẩy mã nguồn lên GitHub.
+### 2. EXPECTED (Kết quả mong đợi):
+Git thực hiện đồng bộ thành công và cho phép em đẩy mã nguồn lên GitHub.
+### 3. ACTUAL (Kết quả thực tế):
+Terminal xuất hiện lỗi:
+
+`error: open(".git/FETCH_HEAD"): Permission denied`
+
+Em đã thử chạy lại lệnh và sử dụng PowerShell bằng quyền Administrator nhưng lỗi vẫn chưa được khắc phục.
+### 4. LOG (Nhật ký lỗi):
+- Thông báo lỗi đầy đủ: `error: open(".git/FETCH_HEAD"): Permission denied`
+- Các bước đã thử: Khởi động lại lệnh Git, kiểm tra trạng thái repository và thử quyền Administrator.
+- Ảnh chụp màn hình lỗi: Em gửi kèm bên dưới.
+
+Em mong thầy hướng dẫn em cách kiểm tra và khắc phục nguyên nhân gây ra lỗi quyền truy cập này ạ.
+
+Em cảm ơn thầy!
